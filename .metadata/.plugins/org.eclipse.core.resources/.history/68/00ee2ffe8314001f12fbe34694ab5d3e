@@ -1,0 +1,23 @@
+package Collections;
+
+import java.util.ArrayList;
+
+public class ArrayListDemo {
+	
+	public static void main(String[] args) {
+		
+		ArrayList<Object> list=new ArrayList<Object>();
+		
+		list.add(10);
+		list.add("New York");
+		list.add(true);
+		list.add(10.34);
+		list.add("New York");
+		list.add(null);
+		
+		
+		System.out.println(list);
+		
+	}
+
+}

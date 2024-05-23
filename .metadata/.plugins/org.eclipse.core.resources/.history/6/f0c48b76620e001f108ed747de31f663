@@ -1,0 +1,12 @@
+package Polymorphism;
+
+import inheritance.Animal;
+
+public class Animal() {
+
+	public void go(Animal a) {
+		a.sound();	
+	}
+	
+
+}

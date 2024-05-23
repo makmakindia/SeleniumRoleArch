@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * 
+ */
+module Log3jDemos {
+	requires java.logging;
+}

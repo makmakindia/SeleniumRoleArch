@@ -1,0 +1,19 @@
+package Democomp1;
+
+public class singletonTest {
+	
+	/* Predefined rules for singleton implementation 
+	 * 1. Singleton class should have private constructor 
+	 * 2. 
+	 * 
+	 */
+
+	private singletonTest() {
+		System.out.println("Singleton Test constructor.....!");
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

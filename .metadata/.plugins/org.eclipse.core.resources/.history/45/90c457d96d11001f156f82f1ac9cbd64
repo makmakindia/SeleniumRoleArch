@@ -1,0 +1,10 @@
+package superclassdemo;
+
+public class Animal {
+
+	public void sound() {
+		super.this();
+		System.out.println("Generic sound ..... !");
+	}
+
+}

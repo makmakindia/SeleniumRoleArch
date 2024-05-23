@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
+   
+     <!-- HTML Appender -->
+    
+   <appender name="htmlAppender" class="org.apache.log4j.DailyRollingFileAppender">
+            <param name="File" value="C:/selenium/CoreJavaTut/Log4JProj/log.html"/>
+    	<param name="DatePattern" value="'.'yyyy-MM-dd-HH'.html'"/>
+    	<layout class="org.apache.log4j.HTMLLayout"/>
+          <!--/layout-->
+        </appender>               
+     
+    <!-- ROOT Configuration -->
+     
+    <root>
+       <!--  <priority value ="error" />  -->
+       <appender-ref ref="htmlAppender" />
+    </root>
+    
+</log4j:configuration>

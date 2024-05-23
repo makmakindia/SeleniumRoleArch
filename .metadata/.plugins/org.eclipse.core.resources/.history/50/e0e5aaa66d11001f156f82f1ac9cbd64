@@ -1,0 +1,12 @@
+package superclassdemo;
+
+public class Dog {
+
+	public static void main(String[] args) {
+		
+		Dog d = new Dog();
+		
+
+	}
+
+}

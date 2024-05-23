@@ -1,0 +1,22 @@
+package Log4jexamples;
+
+import java.util.logging.Logger;
+import java.util.logging.LogManager;
+
+public class TestLog4j {
+	/*
+	 * Logger text can be generated on below methods  
+	 * 1. console 
+	 * 2. File.log
+	 * 3. Mail
+	 * Jars : log4j.jar an mail.zip 
+	 */
+	
+	private static final Logger logger = LogManager.getLogger(TestLog4j.class);
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

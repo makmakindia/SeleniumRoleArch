@@ -1,0 +1,18 @@
+
+public class javaLectureV01 {
+
+	public static void main(String[] args) {
+		
+		
+		int i;
+		float f
+		double d;
+		long l;
+		boolean b;
+		char c;
+		String s;
+		
+
+	}
+
+}

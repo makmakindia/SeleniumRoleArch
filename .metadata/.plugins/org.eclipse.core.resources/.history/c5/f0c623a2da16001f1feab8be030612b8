@@ -1,0 +1,17 @@
+package Log4jexamples;
+
+public class TestLog4j {
+	/*
+	 * Logger text can be generated on below methods  
+	 * 1. console 
+	 * 2. File.log
+	 * 3. Mail
+	 * 
+	 */
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

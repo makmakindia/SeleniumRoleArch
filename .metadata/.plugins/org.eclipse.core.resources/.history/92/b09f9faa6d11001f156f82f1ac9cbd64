@@ -1,0 +1,16 @@
+package superclassdemo;
+
+public class Dog {
+	
+	public void sound() {
+		System.out.println("Dog Sound ....!");
+	}
+
+	public static void main(String[] args) {
+		
+		Dog d = new Dog();
+		
+
+	}
+
+}
